@@ -41,11 +41,12 @@ const MessageContainer = ({ messages = [] }) => {
                 className="text-center py-12"
               >
                 <h2 className="text-2xl font-semibold text-text mb-4">
-                  Welcome to Jarvis AI Assistant
+                  Bienvenue sur l'Assistant IA Jarvis{" "}
                 </h2>
                 <p className="text-text-secondary mb-8">
-                  I'm your voice-enabled AI assistant. Click the microphone
-                  button and start speaking to begin our conversation.
+                  Je suis votre assistant IA activé par la voix. Cliquez sur le
+                  bouton au dessus et commencez à parler pour démarrer notre
+                  conversation.
                 </p>
                 <div className="flex justify-center mt-6">
                   <elevenlabs-convai agent-id="arCNmkDE8BbNJQM6bz6Q"></elevenlabs-convai>

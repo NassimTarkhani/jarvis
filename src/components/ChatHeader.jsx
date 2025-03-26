@@ -14,16 +14,16 @@ const ChatHeader = () => {
           </div>
           <div>
             <h1 className="text-lg font-semibold text-text">
-              Jarvis AI Assistant
+              Jarvis L'Assistant Vocale
             </h1>
             <p className="text-xs text-text-secondary">
-              Voice-enabled AI assistant
+              Assistant IA activé par la voix
             </p>
           </div>
         </div>
         <div className="flex items-center space-x-2 bg-secondary/30 px-3 py-1 rounded-full">
           <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-          <span className="text-sm text-text-secondary">Online</span>
+          <span className="text-sm text-text-secondary">En ligne</span>
         </div>
       </div>
     </header>
