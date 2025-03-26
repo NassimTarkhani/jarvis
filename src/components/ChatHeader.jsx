@@ -5,8 +5,12 @@ const ChatHeader = () => {
     <header className="bg-jarvis-bubble border-b border-gray-800">
       <div className="max-w-chat mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-full bg-accent flex items-center justify-center">
-            <span className="text-lg font-bold text-white">J</span>
+          <div className="w-10 h-10 flex items-center justify-center">
+            <img
+              src="/3.png"
+              alt="Jarvis AI Logo"
+              className="w-57 h-10 rounded-full"
+            />
           </div>
           <div>
             <h1 className="text-lg font-semibold text-text">
